@@ -48,7 +48,7 @@ async function getQuotes () {
         apiQuotes = await response.json();
         newQuote();
     } catch (error) {
-        throw Error ('oops')
+        throw Error ('It cannot find quotes')
     }
 }
 
